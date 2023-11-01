@@ -1,0 +1,88 @@
+/* Base styling */
+
+* {
+  /* box-sizing: border-box; */
+}
+
+section,
+article {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 4px 2px -2px rgb(209, 205, 205);
+  margin: 0;
+}
+
+h1 {
+  color: rgb(58, 58, 58);
+  font-family: "Lucida Console";
+}
+
+h2 {
+  font-family: "Lucida Console";
+  color: rgb(73, 73, 73);
+  margin-left: 5rem;
+}
+
+#inputs label {
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+  font-family: "Lucida Console";
+}
+
+#inputs textarea {
+  background: #f0f1f2;
+  width: 100%;
+}
+
+#inputs input {
+  width: 50%;
+  background-color: #f0f1f2;
+  border: 1px solid gray;
+  margin-bottom: 1rem;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 25%;
+}
+
+button {
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  margin: 10px 0;
+  width: 80px;
+  height: 30px;
+  border-radius: 5%;
+  align-self: flex-end;
+}
+
+article {
+  box-shadow: cyan 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 3rem;
+  padding: 1.2rem;
+  box-sizing: border-box;
+}
+
+article h3 {
+  font-weight: bold;
+}
+
+#todos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33.33%;
+  justify-content: space-between;
+  margin: 0 5rem;
+}
+
+/* Add styling */
